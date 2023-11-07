@@ -1,0 +1,68 @@
+.form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    padding: 15px;
+    border: 1px solid rgb(206, 203, 203);
+    border-radius: 7px;
+}
+
+input {
+    width: 200px;
+    padding: 5px;
+    border: 1px solid rgb(201, 200, 200);
+    border-radius: 7px;
+}
+
+.card__cover {
+    height: 110px;
+    width: 100%;
+}
+
+.card__cover > img {
+    height: 100px;
+    width: 100px;
+    position: relative;
+    left: 25%;
+}
+
+#id {
+    width: 191px;
+}
+
+#price {
+    width: 203px;
+}
+
+.btn {
+    
+    color: black;
+    font-weight: 500;
+    padding: 2px;
+    width: 70px;
+    height: 30px;
+    margin: 7px 10px 5px 10px;
+    border: transparent;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.up {
+    background-color: #059eea;
+}
+
+.up:hover {
+    background-color: #066696; 
+}
+
+.back {
+    background-color: mediumseagreen;
+}
+
+.back:hover {
+    background-color: #22633f;
+}

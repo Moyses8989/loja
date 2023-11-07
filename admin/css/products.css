@@ -1,0 +1,114 @@
+
+.filter {
+    width: 100vw;
+    height: 40px;
+}
+
+.btn-filter{
+    width: 100px;
+    padding: 5px;
+    font-weight: bolder;
+    border: 1px solid black;
+    border-radius: 7px;
+    background-color: #e5de71;
+    cursor: pointer;
+}
+
+.btn-filter:hover {
+    background-color: #bbb560;
+}
+
+#imgFiltro {
+    margin-left: 15px;
+}
+
+#filtro {
+    width: 210px;
+    height: 25px;
+    margin-left: 4vw;
+    margin-top: 3px;
+    padding-left: 5px;
+    border: 1px solid lightgrey;
+    border-radius: 7px;
+}
+
+#filtro:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+
+.btn {
+    display: block;
+    margin-left: auto;
+    margin-right: 10%;
+    background-color: #059eea;
+}
+
+.btn:hover {
+    background-color: #066696; 
+}
+
+.container {
+    width: 90vw;
+    margin-left: 4vw;
+    display: flex;
+    flex-direction: row;
+}
+
+.card {
+    width: 200px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    margin: 10px 10px 10px 0;
+    border: 1px solid lightgrey;
+    border-radius: 7px;
+}
+
+.card__cover {
+    height: 150px;
+    width: 100%;
+}
+
+.card__cover > img {
+    height: 100px;
+    width: 100px;
+    position: relative;
+    left: 25%;
+}
+
+.card__content {
+    height: 200px;
+    flex: 1;
+}
+
+.action {
+    padding: 2px;
+    width: 70px;
+    height: 30px;
+    margin: 7px 10px 5px 10px;
+    border: transparent;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.edit {
+    background-color: #e7e735;
+    color: black;
+    font-weight: 400;
+}
+
+.edit:hover {
+    background-color: #87873d;
+    color: white;
+}
+
+.delete {
+    background-color: #d83b3b;
+    color: white;
+}
+
+.delete:hover {
+    background-color: #742121;
+}

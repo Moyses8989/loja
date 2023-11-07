@@ -1,0 +1,67 @@
+h3 {
+    margin-left: 4vw;
+}
+.listaCompras {
+    width: 90vw;
+    margin: 8vh 0  0 4vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.item {
+    width: 80vw;
+    margin-bottom: 20px;
+    padding-right: 15px;
+    padding-left: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-size: large;
+    border: 1px solid lightgray;
+    border-radius: 7px;
+}
+
+.item > img {
+    height: 40px;
+    width: 40px;
+    position: relative;
+}
+
+.rmv {
+    width: 13px;
+    height: 20px;
+    background-color: #a2213be6;
+    border: transparent;
+    border-radius: 8px;
+    padding: 5px;
+    color: white;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.rmv:hover {
+    color: black;
+    background-color: red;
+}
+
+.finalizarCompra {
+    width: 90vw;
+    margin: 8vh 0  0 4vw;
+}
+
+.finalizarCompra > form > button {
+    padding: 5px;
+    height: 35px;
+    font-weight: bolder;
+    border: transparent;
+    border-radius: 7px;
+    background-color: #39ff03;
+    position: relative;
+    left: 90%;
+    cursor: pointer;
+}
+
+.finalizarCompra > form > button:hover {
+    background-color: #30cc05;
+}

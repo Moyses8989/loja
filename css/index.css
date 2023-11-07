@@ -1,0 +1,86 @@
+header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.carrinho {
+    width: 40px;
+    height: 40px;
+}
+
+.logo {
+    margin-left: 15%;
+}
+
+.admin {
+    width: 120px;
+    margin-left: auto;
+    margin-right: 10%;
+    background-color: #ecaa02;
+}
+
+.filter {
+    width: 100vw;
+    height: 40px;
+}
+
+.btn-filter{
+    width: 100px;
+    padding: 5px;
+    font-weight: bolder;
+    border: 1px solid black;
+    border-radius: 7px;
+    background-color: #e5de71;
+    cursor: pointer;
+}
+
+.btn-filter:hover {
+    background-color: #bbb560;
+}
+
+#imgFiltro {
+    margin-left: 15px;
+}
+
+#filtro {
+    width: 210px;
+    height: 25px;
+    margin-left: 4vw;
+    margin-top: 3px;
+    padding-left: 5px;
+    border: 1px solid lightgrey;
+    border-radius: 7px;
+}
+
+#filtro:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+
+.name {
+    margin-left: 10px;
+    font-size: 16px;
+}
+
+.price {
+    font-size: 27px;
+    font-weight: bold;
+    margin-left: 7px;
+}
+
+.favorito {
+    width: 23px;
+    height: 23px;
+    cursor: pointer;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+}
+
+.favorito:hover {
+     filter: grayscale(0%);
+    -webkit-filter: grayscale(0%);
+    transform: scale(1.3);
+    transition: .5s;
+}

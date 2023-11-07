@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+.btn {
+    width: 80px;
+    padding: 5px;
+    font-weight: bolder;
+    border: 1px solid black;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.btn-logout {
+    margin: 7px;
+    width: 70px;
+    height: 35px;
+    border: 0;
+    border-radius: 7px;
+    background-color: rgba(162, 33, 59, 0.9);
+    font-weight: 600;
+    position: absolute;
+    right: 20px;
+    top: 5px;
+    cursor: pointer;
+}
+
+.btn-logout:hover {
+    background-color: red; 
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.container {
+    width: 90vw;
+    margin-left: 4vw;
+    display: flex;
+    flex-direction: row;
+}
+
+.card {
+    width: 200px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    margin: 10px 10px 10px 0;
+    border: 1px solid lightgrey;
+    border-radius: 7px;
+}
+
+.card__cover {
+    height: 150px;
+    width: 100%;
+}
+
+.card__cover > img {
+    height: 100px;
+    width: 100px;
+    position: relative;
+    left: 25%;
+}
+
+.card__content {
+    height: 200px;
+    flex: 1;
+}
+
+.action {
+    padding: 2px;
+    width: 70px;
+    height: 30px;
+    margin: 7px 10px 5px 10px;
+    border: transparent;
+    border-radius: 7px;
+    cursor: pointer;
+}
